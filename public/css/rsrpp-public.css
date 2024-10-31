@@ -1,0 +1,29 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+.rsrpp__title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.rsrpp__posts{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;    
+}
+.rsrpp__posts__post{
+    height: 100px;
+    margin: 5px;
+    width: 300px;
+    border: 1px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rsrpp__posts__post__title{
+    color: black;
+    text-align: center;
+    padding: 5px;
+}
